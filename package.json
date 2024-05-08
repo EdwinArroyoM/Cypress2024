@@ -1,0 +1,17 @@
+{
+  "name": "cypress2024",
+  "version": "1.0.0",
+  "description": "Cypress Framework 2024 v13",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Cypress",
+    "v13",
+    "Framework",
+    "Automation"
+  ],
+  "author": "Edwin Arroyo",
+  "license": "ISC"
+}
