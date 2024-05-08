@@ -2,7 +2,7 @@
 Precooked Cypress solution using TS and JS it cames with scripts for CI integrations.
 
 clone the repository:<br>
-git clone  [https://github.com/APEX-Projects/CypressTS.git]
+git clone  [https://github.com/UserName/Cypress2024.git]
 <br>
 
 if throws an error, try the next command<br>
