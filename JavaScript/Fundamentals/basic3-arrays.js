@@ -52,5 +52,40 @@ for (let i = 0; i < scores.length; i++) {
     }
 }
 console.log(evenScores);
-let newFilterScores = scores.filter(scores=> scores%2 == 0)
+let newFilterScores = scores.filter(score=> score%2 == 0) //[ 12, 14, 16 ]
 console.log(newFilterScores);
+
+//Map
+//Create new array with even numbers of scores array and Multipply each value *3
+ let mappedArray = newFilterScores.map(score=>score*3)
+ console.log(mappedArray); //[ 36, 42, 48 ]
+
+
+//Test
+//Create new array with even numbers of scores array and Multipply some values *3
+let numbersOfTheArrayFiltered = scores.filter(score => score %2 == 0)
+let multiplyFilteredValues = numbersOfTheArrayFiltered.map(score => score*3)
+console.log(multiplyFilteredValues);
+
+//Test
+//Sum all the values
+let totalValues = multiplyFilteredValues.reduce((sum,val)=>sum+val,0)
+console.log(totalValues);
+
+var scores1 = [12,13,14,16] // You can do evverything on a single line
+let sumValues = scores1.filter(score=> score%2 == 0).map(score=>score*3).reduce((sum,val)=>sum+val,0)
+console.log(sumValues);
+
+let fruits =["Banana","Mango","pomgranade","apple"]
+console.log(fruits.sort()); 
+console.log(fruits.reverse());
+
+
+var scores1 = [12,003,19,16, 14]
+console.log(scores1.sort())
+// scores1.sort(function (a,b) {
+//     return a-b
+// })
+// console.log(scores1);
+console.log(scores1.sort((a,b)=> a-b));
+console.log(scores1.sort((a,b)=> b-a));
