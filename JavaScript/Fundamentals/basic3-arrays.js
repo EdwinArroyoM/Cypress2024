@@ -89,3 +89,7 @@ console.log(scores1.sort())
 // console.log(scores1);
 console.log(scores1.sort((a,b)=> a-b));
 console.log(scores1.sort((a,b)=> b-a));
+
+
+const link = "a[href='/tienda/pdp/falda-short-that's-it-a-la-cintura/1151465571?skuid=1151465583']";
+console.log();
