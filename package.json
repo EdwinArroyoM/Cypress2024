@@ -4,7 +4,10 @@
   "description": "Cypress Framework 2024 v13",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:suite": "cypress run --e2e --browser chrome --spec cypress/integration/**/*.js" 
   },
   "keywords": [
     "Cypress",
